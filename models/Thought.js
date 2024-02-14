@@ -1,5 +1,5 @@
 const { Schema, model } = require("mongoose");
-const reactionSchema = require("./Reactions");
+const reactionSchema = require("./Reaction");
 
 // Schema to create thought model
 const thoughtSchema = new Schema(
@@ -7,8 +7,8 @@ const thoughtSchema = new Schema(
     thoughtText: {
       type: String,
       required: true,
-      min: 1,
-      max: 280,
+      min_length: 1,
+      max_length: 280,
     },
     createdAt: {
       type: Date,
@@ -30,11 +30,11 @@ const thoughtSchema = new Schema(
 );
 
 // Create a virtual property `reactionCount` that gets the amount of comments per post
-userSchema.virtual("reactionCount").get(function () {
+thoughtSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
 });
 
-// Initialize our User model
+// Initialize our Thought model
 const Thought = model("thought", thoughtSchema);
 
 module.exports = Thought;

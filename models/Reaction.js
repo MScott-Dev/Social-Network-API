@@ -11,7 +11,7 @@ const reactionSchema = new Schema(
     reactionBody: {
       type: String,
       required: true,
-      max: 280,
+      max_length: 280,
     },
     username: {
       type: String,
@@ -21,19 +21,20 @@ const reactionSchema = new Schema(
       type: Date,
       default: Date.now,
       //   TODO : Use a getter method to format the timestamp on query
+      get: (timestamp) => {
+        
+      },
     },
   },
   {
     toJSON: {
       getters: true,
-      virtuals: true,
     },
   }
 );
 
 
 
-// Initialize our User model
-const Reaction = model("reaction", reactionSchema);
 
-module.exports = Reaction;
+
+module.exports = reactionSchema;
