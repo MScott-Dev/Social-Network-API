@@ -1,5 +1,6 @@
 const { Schema, model } = require("mongoose");
 const reactionSchema = require("./Reaction");
+const { dateString } = require("../utils/dateFormat");
 
 // Schema to create thought model
 const thoughtSchema = new Schema(
@@ -14,6 +15,9 @@ const thoughtSchema = new Schema(
       type: Date,
       default: Date.now,
       //   TODO : Use a getter method to format the timestamp on query
+      get: (timeStamp) => {
+        dateString();
+      },
     },
     username: {
       type: String,
