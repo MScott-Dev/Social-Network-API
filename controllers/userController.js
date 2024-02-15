@@ -50,10 +50,27 @@ module.exports = {
       );
 
       if (!user) {
-        res.status(404).json({ message: 'incorrect id, please try again' })
+        res.status(404).json({ message: "incorrect id, please try again" });
       }
 
       res.json(user);
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  },
+  // Delete a user
+  async deleteUser(req, res) {
+    try {
+      const user = await User.findOneAndDelete({
+        _id: req.params.userId,
+      });
+
+      if (!user) {
+        res.status(404).json({ message: "incorrect id, please try again" });
+      }
+
+      
+      res.json({ message: "User deleted!" });
     } catch (err) {
       res.status(500).json(err);
     }
