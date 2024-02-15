@@ -74,5 +74,23 @@ module.exports = {
     } catch (err) {
       res.status(500).json(err);
     }
+  },
+  // Add a friend to a user
+  async addFriend(req, res) {
+    try {
+      const user = await User.findOneAndUpdate(
+        { _id: req.params.userId },
+        { $addToSet: { friends: req.body } },
+        { runValidators: true, new: true }
+      );
+
+      if (!user) {
+        return res.status(404).json({ message: 'incorrect id, please try again'});
+      }
+
+      res.json(user);
+    } catch (err) {
+      res.status(500).json(err);
+    }
   }
 };
