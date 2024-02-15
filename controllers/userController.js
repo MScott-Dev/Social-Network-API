@@ -69,7 +69,6 @@ module.exports = {
         res.status(404).json({ message: "incorrect id, please try again" });
       }
 
-      
       res.json({ message: "User deleted!" });
     } catch (err) {
       res.status(500).json(err);
@@ -85,12 +84,34 @@ module.exports = {
       );
 
       if (!user) {
-        return res.status(404).json({ message: 'incorrect id, please try again'});
+        return res
+          .status(404)
+          .json({ message: "incorrect id, please try again" });
       }
 
       res.json(user);
     } catch (err) {
       res.status(500).json(err);
     }
-  }
+  },
+  // Delete a friend from a user
+  async deleteFriend(req, res) {
+    try {
+      const user = await User.findOneAndUpdate(
+        { _id: req.params.userId },
+        { $pull: { friends: req.params.friendId } },
+        { runValidators: true, new: true }
+      );
+
+      if (!user) {
+        return res
+          .status(404)
+          .json({ message: "incorrect id, please try again" });
+      }
+
+      res.json(user);
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  },
 };
