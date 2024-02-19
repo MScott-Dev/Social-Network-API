@@ -1,4 +1,5 @@
 const router = require("express").Router();
+// import different functions for each CRUD operation
 const {
   getUsers,
   getSingleUser,
