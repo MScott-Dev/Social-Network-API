@@ -35,7 +35,7 @@ module.exports = {
   async createUser(req, res) {
     try {
       const user = await User.create(req.body);
-      res.json(user);
+      res.json("User created!");
     } catch (err) {
       res.status(500).json(err);
     }
@@ -53,7 +53,7 @@ module.exports = {
         res.status(404).json({ message: "incorrect id, please try again" });
       }
 
-      res.json(user);
+      res.json("User updated!");
     } catch (err) {
       res.status(500).json(err);
     }
@@ -69,7 +69,7 @@ module.exports = {
         res.status(404).json({ message: "incorrect id, please try again" });
       }
 
-      res.json({ message: "User deleted!" });
+      res.json("User deleted!");
     } catch (err) {
       res.status(500).json(err);
     }
@@ -89,7 +89,7 @@ module.exports = {
           .json({ message: "incorrect id, please try again" });
       }
 
-      res.json(user);
+      res.json("Friend added!");
     } catch (err) {
       res.status(500).json(err);
     }
@@ -109,7 +109,7 @@ module.exports = {
           .json({ message: "incorrect id, please try again" });
       }
 
-      res.json(user);
+      res.json("User deleted!");
     } catch (err) {
       res.status(500).json(err);
     }

@@ -63,7 +63,7 @@ module.exports = {
         res.status(404).json({ message: "incorrect id, please try again" });
       }
 
-      res.json(thought);
+      res.json("Thought updated!");
     } catch (err) {
       res.status(500).json(err);
     }
@@ -85,14 +85,13 @@ module.exports = {
         res.status(404).json({ message: "incorrect id, please try again" });
       }
 
-      res.json({ message: "Thought deleted!" });
+      res.json("Thought deleted!");
     } catch (err) {
       res.status(500).json(err);
     }
   },
   // Add an reaction to a thought
   async addReaction(req, res) {
-
     try {
       const thought = await Thought.findOneAndUpdate(
         { _id: req.params.thoughtId },
@@ -106,7 +105,27 @@ module.exports = {
           .json({ message: "No thought found with that id" });
       }
 
-      res.json(thought);
+      res.json("Reaction added!");
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  },
+  // Remove reaction from a thought
+  async removeReaction(req, res) {
+    try {
+      const thought = await Thought.findOneAndUpdate(
+        { _id: req.params.thoughtId },
+        { $pull: { reactions: { _id: req.body.reactionId } } },
+        { runValidators: true, new: true }
+      );
+
+      if (!thought) {
+        return res
+          .status(404)
+          .json({ message: "No thought found with that id" });
+      }
+
+      res.json("Reaction removed");
     } catch (err) {
       res.status(500).json(err);
     }
