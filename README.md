@@ -13,13 +13,17 @@
 [Questions](#Questions) <br>
 
 ## Description <a name="Description"></a>
-An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+A Social Network API that utilizes CRUD (Create, Read, Update, Delete) routes. This API allows us to 
+1. Create: users, thoughts, and reactions to other people's thoughts
+2. Read: All users or thoughts and a specific user or thought
+3. Update: Users and thoughts while also updating the user if a new thought or friend is added
+4. Delete: Users, thoughts, reactions and friends 
+
 ## Live Recording and Screenshots <a name="LRaS"></a>
 <details>
 <summary>Live Demo</summary>
-  
 <br>
-This is how you dropdown.
+
 </details>
 
 <details>
@@ -66,6 +70,7 @@ This is how you dropdown.
 
 
 ## Technologies Used <a name="Technologies"></a>
+
 
 ## Installation <a name="Installation"></a>
 
