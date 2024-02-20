@@ -49,12 +49,16 @@ This is how you dropdown.
       <details>
       <summary>Put Routes</summary>
       <br>
+        <img src="https://imgur.com/2UoMOZC.png" alt="get-route" /> <br>
+        <img src="https://imgur.com/qje3SKD.png" alt="get-route" /> <br>
       </details>
     </li>
     <li>
       <details>
       <summary>Delete Routes</summary>
       <br>
+        <img src=".png" alt="get-route" /> <br>
+        <img src=".png" alt="get-route" /> <br>
       </details>
     </li>
   </ul>
