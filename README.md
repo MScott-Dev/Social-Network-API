@@ -29,6 +29,10 @@ This is how you dropdown.
       <details>
       <summary>Get Routes</summary>
       <br>
+        <img src="https://imgur.com/AwEVsWw.png" alt="get-route" /> <br>
+        <img src="https://imgur.com/DZVt8jG.png" alt="get-route" /> <br>
+        <img src="https://imgur.com/1H8T9yR.png" alt="get-route" /> <br>
+        <img src="https://imgur.com/8po10KT.png" alt="get-route" /> <br>
       </details>
     </li>
     <li>
