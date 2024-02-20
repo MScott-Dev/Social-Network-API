@@ -57,8 +57,8 @@ This is how you dropdown.
       <details>
       <summary>Delete Routes</summary>
       <br>
-        <img src=".png" alt="get-route" /> <br>
-        <img src=".png" alt="get-route" /> <br>
+        <img src="https://imgur.com/tq0d2ui.png" alt="get-route" /> <br>
+        <img src="https://imgur.com/zbFcrxr.png" alt="get-route" /> <br>
       </details>
     </li>
   </ul>
