@@ -70,7 +70,16 @@ A Social Network API that utilizes CRUD (Create, Read, Update, Delete) routes. T
 
 
 ## Technologies Used <a name="Technologies"></a>
-
+<ul>
+  <li>JavaScript</li>
+  <li>NodeJS</li>
+  <li>ExpressJS</li>
+  <li>MongoDB</li>
+  <li>Mongoose</li>
+  <li>DayJS</li>
+  <li>ValidatorJS</li>
+  <li>Nodemon</li>
+</ul>
 
 ## Installation <a name="Installation"></a>
 
