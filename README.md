@@ -3,19 +3,19 @@
 ## Table of Contents
 [Description](#Description) <br>
 [Live Recording and Screenshots](#LRaS) <br>
-[Technologies Used](#Description) <br>
-[Installation](#Description) <br>
-[Features](#Description) <br>
-[Usage](#Description) <br>
-[Future Development](#Description) <br>
-[Contribution](#Description) <br>
-[Author](#Description) <br>
-[License](#Description) <br>
-[Questions](#Description) <br>
+[Technologies Used](#Technologies) <br>
+[Installation](#Installation) <br>
+[Features](#Features) <br>
+[Usage](#Usage) <br>
+[Future Development](#Future) <br>
+[Contribution](#Contribution) <br>
+[Author](#Author) <br>
+[License](#License) <br>
+[Questions](#Questions) <br>
 
 ## Description <a name="Description"></a>
 
-## Live Recording and Screenshots <a name="Description"></a>
+## Live Recording and Screenshots <a name="LRaS"></a>
 
 ## Technologies Used <a name="Description"></a>
 
