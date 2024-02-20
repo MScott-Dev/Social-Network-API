@@ -1,25 +1,36 @@
 # Social Network API
 
 ## Table of Contents
+[Description](#Description) <br>
+[Live Recording and Screenshots](#LRaS) <br>
+[Technologies Used](#Description) <br>
+[Installation](#Description) <br>
+[Features](#Description) <br>
+[Usage](#Description) <br>
+[Future Development](#Description) <br>
+[Contribution](#Description) <br>
+[Author](#Description) <br>
+[License](#Description) <br>
+[Questions](#Description) <br>
 
-## Description
+## Description <a name="Description"></a>
 
-## Live Recording and Screenshots
+## Live Recording and Screenshots <a name="Description"></a>
 
-## Technologies Used
+## Technologies Used <a name="Description"></a>
 
-## Installation
+## Installation <a name="Description"></a>
 
-## Features
+## Features <a name="Description"></a>
 
-## Usage
+## Usage <a name="Description"></a>
 
-## Future Development
+## Future Development <a name="Description"></a>
 
-## Contributions
+## Contributions <a name="Description"></a>
 
-## Author
+## Author <a name="Description"></a>
 
-## License
+## License <a name="Description"></a>
 
-## Questions
+## Questions <a name="Description"></a>
