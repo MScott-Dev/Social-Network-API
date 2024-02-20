@@ -17,20 +17,20 @@
 
 ## Live Recording and Screenshots <a name="LRaS"></a>
 
-## Technologies Used <a name="Description"></a>
+## Technologies Used <a name="Technologies"></a>
 
-## Installation <a name="Description"></a>
+## Installation <a name="Installation"></a>
 
-## Features <a name="Description"></a>
+## Features <a name="Features"></a>
 
-## Usage <a name="Description"></a>
+## Usage <a name="Usage"></a>
 
-## Future Development <a name="Description"></a>
+## Future Development <a name="Future"></a>
 
-## Contributions <a name="Description"></a>
+## Contributions <a name="Contribution"></a>
 
-## Author <a name="Description"></a>
+## Author <a name="Author"></a>
 
-## License <a name="Description"></a>
+## License <a name="License"></a>
 
-## Questions <a name="Description"></a>
+## Questions <a name="Questions"></a>
