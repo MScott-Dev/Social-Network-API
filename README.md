@@ -97,7 +97,8 @@ This API features all REST routes for a social media application for a total of 
 ## Future Development <a name="Future"></a>
 
 ## Contributions <a name="Contribution"></a>
-
+If you think you can improve this project, Send me a message! info at the bottom
+You could also open a pull request and I'll take a look at it!
 ## Author <a name="Author"></a>
 
 ## License <a name="License"></a>
