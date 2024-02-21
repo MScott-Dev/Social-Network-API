@@ -82,6 +82,13 @@ A Social Network API that utilizes CRUD (Create, Read, Update, Delete) routes. T
 </ul>
 
 ## Installation <a name="Installation"></a>
+1. You will need Insomnia and MongoDB installed
+2. Clone this repo locally
+3. Open it inside of VS Code
+4. Inside the ternimal, run <code>npm i</code>
+5. Run <code>npm run start</code>
+6. Open Insomnia and make a request. Examples can be found in screenshots above
+
 
 ## Features <a name="Features"></a>
 
