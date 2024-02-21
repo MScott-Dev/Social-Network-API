@@ -91,7 +91,7 @@ A Social Network API that utilizes CRUD (Create, Read, Update, Delete) routes. T
 
 
 ## Features <a name="Features"></a>
-
+This API features all REST routes for a social media application for a total of 14 total routes. There's 4 GET routes, There's 4 POST routes, There's 2 PUT routes, and there's 4 DELETE routes
 ## Usage <a name="Usage"></a>
 
 ## Future Development <a name="Future"></a>
