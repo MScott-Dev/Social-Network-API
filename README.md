@@ -100,7 +100,11 @@ This API features all REST routes for a social media application for a total of 
 If you think you can improve this project, Send me a message! info at the bottom
 You could also open a pull request and I'll take a look at it!
 ## Author <a name="Author"></a>
-
+Matthew Scott
 ## License <a name="License"></a>
-
+This project is licensed under the MIT License. Click on the badge at the top for more information!
 ## Questions <a name="Questions"></a>
+For any questions you may have, feel free to reach out! <br>
+Here are some ways! <br>
+<a href="https://github.com/MScott-Dev" alt="GitHub">GitHub</a> <br>
+<a href="mailto:MScott0199@gmail.com">Email</a>
