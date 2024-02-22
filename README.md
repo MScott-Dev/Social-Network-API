@@ -93,7 +93,10 @@ A Social Network API that utilizes CRUD (Create, Read, Update, Delete) routes. T
 ## Features <a name="Features"></a>
 This API features all REST routes for a social media application for a total of 14 total routes. There's 4 GET routes, There's 4 POST routes, There's 2 PUT routes, and there's 4 DELETE routes
 ## Usage <a name="Usage"></a>
-
+1. Create: users, thoughts, and reactions to other people's thoughts
+2. Read: All users or thoughts and a specific user or thought
+3. Update: Users and thoughts while also updating the user if a new thought or friend is added
+4. Delete: Users, thoughts, reactions and friends 
 ## Future Development <a name="Future"></a>
 <ul>
   <li>A fully working website using this API which acts as a simple social media platform</li>
