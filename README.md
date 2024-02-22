@@ -99,6 +99,7 @@ This API features all REST routes for a social media application for a total of 
   <li>A fully working website using this API which acts as a simple social media platform</li>
   <li>Seed data to allow future users to test the routes easier</li>
 </ul>
+
 ## Contributions <a name="Contribution"></a>
 If you think you can improve this project, Send me a message! info at the bottom
 You could also open a pull request and I'll take a look at it!
